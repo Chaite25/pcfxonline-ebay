@@ -243,8 +243,19 @@ img {
 }
 
 .main-img {
-    border: 1px solid #eee;
-    padding: 5px;
+	border: 1px solid #eee;
+	padding: 5px;
+	height: 555px;
+	position: relative;
+}
+
+.main-img img{
+        position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
 }
 
 /*  ================================
