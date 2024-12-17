@@ -11,10 +11,6 @@
         font-size: 14px;
     }
 
-    .sd {
-        height: 455px;
-    }
-
     .story-bottom h3 {
         font-size: 18px;
     }
@@ -29,7 +25,12 @@
     .menu-top {
         text-align: center;
     }
-
+.main-img {
+	height: auto;
+}
+.main-img img {
+	position: inherit;
+}
     .menu-top {
         margin-bottom: 20px;
     }
@@ -147,6 +148,13 @@
     .table_new tr td {
         font-size: 13px;
     }
+
+    .main-img {
+	height: auto;
+}
+.main-img img {
+	position: inherit;
+}
 
     .wel-come,
     .menu-top {
